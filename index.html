@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Лаб. №7</title>
+<style>
+    body {
+    font-family: sans-serif;
+  }
+  
+  .task {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+</style>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<div class="task">
+<h2>1. Создание объектов</h2>
+<h3>Объект "Клиент банка"</h3>
+<div id="bankClient"></div>
+<h3>Объект "Работник клиники"</h3>
+<div id="clinicWorker"></div>
+<h3>Объект "Гражданин РФ"</h3>
+<div id="citizen"></div>
+</div>
+
+<div class="task">
+<h2>2.Условия "if" на "switch"</h2>
+<p>Введите число от 1 до 9: <input type="number" id="numberInput" min="1" max="9"></p>
+<button onclick="checkNumber()">Проверить</button>
+<p id="result"></p>    
+</div>
+
+<div class="task">
+<h2>3. Четверть часа</h2>
+<p>Введите число от 0 до 59: <input type="number" id="minInput" min="0" max="59"></p>
+<button onclick="checkQuarter()">Проверить</button>
+<p id="quarterResult"></p>
+</div>
+
+<div class="task">
+<h2>4. Проверка строки</h2>
+<p>Введите строку: <input type="text" id="strInput"></p>
+<p>Номер телефона: <input type="tel" id="phoneInput"></p>
+<button onclick="checkString()">Проверить</button>
+<p id="stringResult"></p>    
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
